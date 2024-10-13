@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Tailwind CSS</title>
+   <link rel="stylesheet" href="./output.css">
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body >
+   <div class="flex justify-center mt-9 mb-3">
+   <section>
+      <h1 class="text-3xl font-bold">DAFTAR TUGAS HASNAN SEMESTER 5</h1>
+   </section>
+   </div>
+   <div>
+   <section class="flex justify-center items-center " id="input" >
+      <input type="text" name="assignment" id="assignment" 
+             class="border border-gray-300 w-72 rounded-lg p-2  mr-2"
+             placeholder="Inputkan tugas yang akan dikerjakan">
+      <input type="button" id="btn-tambah" value="TAMBAH"
+             class="bg-slate-200 text-black font-bold  px-4 py-2 rounded-lg cursor-pointer hover:bg-slate-500">
+   </section>
+   <section id="output" class=""></section>
+   <script src="main.js"></script>
+</body>
+</html>
